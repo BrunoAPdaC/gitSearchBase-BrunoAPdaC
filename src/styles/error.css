@@ -1,0 +1,48 @@
+body {
+  background-color: var(--color-grey-2);
+  font-family: var(--font-primary);
+}
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
+  margin-top: 12rem;
+}
+.text > h1 {
+  color: var(--color-grey-7);
+  font-size: 38px;
+  font-weight: 700;
+}
+.text > p {
+  color: var(--color-grey-7);
+  font-size: 16px;
+  font-weight: 400;
+  max-width: 18rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+em {
+  font-size: 16px;
+  font-weight: 600;
+}
+button {
+  background-color: var(--color-brand-2);
+  border: 2px solid transparent;
+  color: var(--color-grey-7);
+  padding: 1rem 8rem;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+}
+button:hover {
+  border: 2px solid var(--color-grey-7);
+}
+
+.imgExcla {
+  background-color: var(--color-brand-2);
+  padding: 5.5rem;
+  border-radius: 5px;
+  box-shadow: var(--color-error) 1.2rem 1.2rem;
+}

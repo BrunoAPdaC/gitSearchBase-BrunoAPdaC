@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- FONTES -->
+    <link rel="stylesheet" href="../styles/reset.css" />
+    <link rel="stylesheet" href="../styles/globalStyles.css" />
+    <link rel="stylesheet" href="../styles/error.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -16,6 +19,21 @@
     <title>Git Search - User Not Found</title>
   </head>
   <body>
+    <main>
+      <section>
+        <div class="text">
+          <h1>Ooops!</h1>
+          <p>
+            Não encontramos o usuário que voce procurou,
+            <em>vamos tentar novamente.</em>
+          </p>
+          <button class="new">Nova Busca</button>
+        </div>
+        <div class="imgExcla">
+          <img src="../assets/img/excla.png" alt="exclamação" />
+        </div>
+      </section>
+    </main>
 
     <script type="module" src="../scripts/error.js"></script>
   </body>

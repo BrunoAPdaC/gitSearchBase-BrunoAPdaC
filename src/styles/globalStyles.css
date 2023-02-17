@@ -7,6 +7,10 @@
   --color-grey-4: #373b3e;
   --color-grey-6: #a6a8a9;
   --color-grey-7: #ffffff;
+  --color-grey-8: #ffffff50;
+  --color-grey-9: #ffffff12;
+  --color-grey-10: #ffffff08;
   --color-alert: #c22554;
   --font-primary: "Inter", sans-serif;
+  --color-error: #520f84;
 }
