@@ -1,3 +1,4 @@
-import { searchProfile } from "./profile.js";
+import { newProfile, searchProfile } from "./profile.js";
 
 searchProfile();
+newProfile();

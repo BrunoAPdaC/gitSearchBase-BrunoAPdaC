@@ -20,8 +20,6 @@ export function newProfile() {
 async function show() {
   let profile = JSON.parse(localStorage.getItem("searchProfile"));
   let x = await getRepository(profile.repos_url);
-  console.log(profile.repos_url);
-  console.log(x);
   renderProfile(profile, x);
 }
 show();

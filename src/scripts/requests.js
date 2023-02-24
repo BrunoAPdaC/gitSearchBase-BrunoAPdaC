@@ -7,6 +7,7 @@ export async function getProfile(nameProfile) {
   }).then((response) => {
     if (response.ok)
       response.json().then((res) => {
+        localStorage.clear(`searchProfile`);
         localStorage.setItem(`searchProfile`, JSON.stringify(res));
         window.location.replace(`../src/pages/profile.html`);
       });
@@ -30,7 +31,7 @@ export async function getRepository(link) {
       return response.json();
     })
     .then((response) => {
-      console.log(response);
+      localStorage.clear(`repos`);
       localStorage.setItem(`repos`, JSON.stringify(response));
       return response;
     });
